@@ -24,11 +24,11 @@ This project was developed following Glaucia Lemos [Coding Stuff!](https://www.y
 ## :cd: Installation
 
 ```sh
-git clone [PROJECT_REPO_LINK]
+git clone git@github.com:filipe1309/gl-cs-jwt-node-vue.git
 ```
 
 ```sh
-cd [PROJECT_REPO_NAME]
+cd gl-cs-jwt-node-vue
 ```
 
 ## :runner: Running
