@@ -9,3 +9,5 @@ npm i express mongoose body-parser cors jsonwebtoken bcrypt bcryptjs morgan dote
 npm i nodemon --save-dev
 
 eslint --init
+
+http://localhost:8080/api/v1
