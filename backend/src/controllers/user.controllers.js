@@ -13,8 +13,8 @@ exports.registerNewUser = async(req, res) => {
 
         const newUser = new User(req.body);
         const user = await newUser.save();
-
         const token = await newUser.generateAuthToken();
+
         res
             .status(201)
             .json({ message: 'User created successfully!', user, token });
