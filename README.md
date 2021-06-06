@@ -10,16 +10,17 @@ This project was developed following Glaucia Lemos [Coding Stuff!](https://www.y
 
 ## :computer: Technologies
 
--   [Docker](https://www.docker.com/)
--   [Docker Compose](https://docs.docker.com/compose/)
--   [NodeJS](https://nodejs.org/en/)
--   [Vue](https://vuejs.org/)
--   [MongoDB](https://www.mongodb.com/)
+- [Docker](https://www.docker.com/)
+- [Docker Compose](https://docs.docker.com/compose/)
+- [NodeJS](https://nodejs.org/en/)
+- [Vue](https://vuejs.org/)
+- [MongoDB](https://www.mongodb.com/)
+- [Mongo Express](https://github.com/mongo-express/mongo-express)
 
 ## :scroll: Requirements
 
--   [Docker](https://www.docker.com/)
--   [Docker Compose](https://docs.docker.com/compose/)
+- [Docker](https://www.docker.com/)
+- [Docker Compose](https://docs.docker.com/compose/)
 
 ## :cd: Installation
 
@@ -39,7 +40,13 @@ docker-compose up
 
 > docker-compose down to remove containers
 
-Access http://localhost:8000/
+### App
+
+Access http://localhost:8080/
+
+### MongoExpress
+
+Access http://localhost:8081/
 
 ## License
 
