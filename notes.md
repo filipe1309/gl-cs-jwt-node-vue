@@ -5,3 +5,5 @@
 https://github.com/glaucia86/jwt-node-vue
 
 ## EP-6
+
+## EP-7

@@ -47,3 +47,7 @@ form-encoded
 name = 'test'
 email = 'test@test.com'
 password = '132456'
+
+https://code.visualstudio.com/docs/remote/wsl#_debugging-in-wsl
+
+https://github.com/Microsoft/vscode/issues/54593
