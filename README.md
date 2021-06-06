@@ -1,7 +1,9 @@
-# <p align="center">JWT with Node & Vue</p>
+# <p align="center">JWT with Node && Vue</p>
 
 <p align="center">
-<img src="https://img.shields.io/badge/nodejs-15.0-green" alt="NodeJS"/>
+    <img src="https://img.shields.io/badge/Code-NodeJS-informational?style=flat-square&logo=javascript&color=339933&logoColor=339933" alt="NodeJS"/>
+    <img src="https://img.shields.io/badge/DB-MongoDB-informational?style=flat-square&logo=mongodb&color=47A248&logoColor=47A248" alt="MongoDB"/>
+    <img src="https://img.shields.io/badge/Tools-Docker-informational?style=flat-square&logo=docker&color=2496ED" alt="Docker"/>
 </p>
 
 ## 💬 About
@@ -10,12 +12,12 @@ This project was developed following Glaucia Lemos [Coding Stuff!](https://www.y
 
 ## :computer: Technologies
 
-- [Docker](https://www.docker.com/)
-- [Docker Compose](https://docs.docker.com/compose/)
 - [NodeJS](https://nodejs.org/en/)
 - [Vue](https://vuejs.org/)
 - [MongoDB](https://www.mongodb.com/)
 - [Mongo Express](https://github.com/mongo-express/mongo-express)
+- [Docker](https://www.docker.com/)
+- [Docker Compose](https://docs.docker.com/compose/)
 
 ## :scroll: Requirements
 
@@ -38,15 +40,9 @@ cd gl-cs-jwt-node-vue
 docker-compose up
 ```
 
-> docker-compose down to remove containers
-
-### App
-
-Access http://localhost:8080/
-
-### MongoExpress
-
-Access http://localhost:8081/
+> docker-compose down to remove containers  
+> Access API: http://localhost:8080/  
+> Access MongoExpress: http://localhost:8081/
 
 ## License
 
