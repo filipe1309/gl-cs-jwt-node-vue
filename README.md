@@ -2,6 +2,7 @@
 
 <p align="center">
     <img src="https://img.shields.io/badge/Code-NodeJS-informational?style=flat-square&logo=javascript&color=339933&logoColor=339933" alt="NodeJS"/>
+    <img src="https://img.shields.io/badge/Code-Vue-informational?style=flat-square&logo=vue-js&color=4FC08D&logoColor=4FC08D" alt="Vue"/>
     <img src="https://img.shields.io/badge/DB-MongoDB-informational?style=flat-square&logo=mongodb&color=47A248&logoColor=47A248" alt="MongoDB"/>
     <img src="https://img.shields.io/badge/Tools-Docker-informational?style=flat-square&logo=docker&color=2496ED" alt="Docker"/>
 </p>
@@ -41,6 +42,7 @@ docker-compose up
 ```
 
 > docker-compose down to remove containers  
+> Access Frontend: http://localhost:8082/
 > Access API: http://localhost:8080/  
 > Access MongoExpress: http://localhost:8081/
 
