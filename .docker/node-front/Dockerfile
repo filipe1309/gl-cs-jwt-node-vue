@@ -4,12 +4,9 @@ WORKDIR /usr/src/app
 
 COPY frontend .
 
-RUN npm i -g nodemon @vue/cli
+RUN npm i -g @vue/cli
 
 RUN npm i
 
-# EXPOSE 3001
-
-# CMD ["nodemon", "server.js"]
-
-CMD ["tail", "-f", "/dev/null"]
+# CMD ["tail", "-f", "/dev/null"]
+CMD ["npm", "run", "start"]
