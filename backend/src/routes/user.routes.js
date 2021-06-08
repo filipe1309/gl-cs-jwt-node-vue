@@ -1,5 +1,6 @@
 const express = require('express');
 const router = express.Router();
+const auth = require('../middlewares/auth');
 const userController = require('../controllers/user.controllers');
 
 // Route to create new 'User': POST http://localhot:8080/api/v1/register
@@ -9,6 +10,6 @@ router.post('/register', userController.registerNewUser);
 router.post('/login', userController.loginUser);
 
 // Route to get the profile of a 'User': GET http://localhot:8080/api/v1/user-profile
-router.get('/user-profile', userController.returnUserProfile);
+router.get('/user-profile', auth, userController.returnUserProfile);
 
 module.exports = router;
