@@ -23,7 +23,6 @@ exports.registerNewUser = async(req, res) => {
     }
 };
 
-// TODO
 exports.loginUser = async(req, res) => {
     try {
         const email = req.body.email;
@@ -41,5 +40,6 @@ exports.loginUser = async(req, res) => {
     }
 };
 
-// TODO
-exports.returnUserProfile = async(req, res) => {};
+exports.returnUserProfile = async(req, res) => {
+    await res.json(req.userData);
+};
