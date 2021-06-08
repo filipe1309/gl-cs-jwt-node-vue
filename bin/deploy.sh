@@ -21,7 +21,7 @@ echo $CLASS_TYPE $CLASS_NUMBER
 GIT_BRANCH_NEXT_CLASS=$CLASS_TYPE-$(($CLASS_NUMBER + 1))
 GIT_BRANCH_NEXT_CLASS_LW=${GIT_BRANCH_NEXT_CLASS,,}  # tolower
 GIT_BRANCH_NEXT_CLASS_UP=${GIT_BRANCH_NEXT_CLASS^^}  # toupper
-printf "\n## ${GIT_BRANCH_NEXT_CLASS^^}\n" >> notes.md
+
 echo "---------------------------------------------"
 
 confirm() {
@@ -85,7 +85,7 @@ if [[ $response =~ ^(yes|y| ) ]] || [[ -z $response ]]; then
     git add notes.md && git commit -m "docs: update notes"
     git push origin $GIT_BRANCH && git push origin $GIT_BRANCH --tags && 
     echo "Deploy completed!"
-    confirm "Chekout to $GIT_DEFAULT_BRANCH & Pull from repo? [Y/n]" && git checkout $GIT_DEFAULT_BRANCH && git pull
+    confirm "Checkout to $GIT_DEFAULT_BRANCH & Pull from repo? [Y/n]" && git checkout $GIT_DEFAULT_BRANCH && git pull
     confirm "Go to next class/episode? ($GIT_BRANCH_NEXT_CLASS_LW) [Y/n]" && git checkout -b $GIT_BRANCH_NEXT_CLASS_LW
     echo "## ${GIT_BRANCH_NEXT_CLASS^^}" >> notes.md
 else
