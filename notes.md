@@ -14,6 +14,7 @@ Move moongose connection from app into a seprate file.
 
 ## EP-9
 
+```sh
 npm i -g @vue/cli
 vue create authentication-app-vue
 Manually
@@ -24,9 +25,12 @@ EsLint + Ainrbnb config
 Lint on Save, Lint and finx on commit
 In package.json
 save for future..? n
+```
 
 ```sh
 docker-compose exec gl-node-frontend vue create authentication-app-vue
 docker-compose exec gl-node-frontend npm i vue-jwt-decode axios bootstrap
-docker-compose exec gl-node-frontend npm i -S vue-sweetalert2
+docker-compose exec gl-node-frontend npm i -S sweetalert
 ```
+
+## EP-10
